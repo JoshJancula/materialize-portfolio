@@ -35,9 +35,6 @@
   // Submits the message
   function submitMessage(message) { // and send thme back to homepage
     $.post("/api/messages", message, function() {
-      window.location.href = "/index";
+    console.log("message sent to api");
     });
   }
-
-  // });
-  
