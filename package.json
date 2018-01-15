@@ -1,0 +1,30 @@
+{
+  "name": "materialize-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshJancula/materialize-portfolio.git"
+  },
+  "author": "josh jancula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshJancula/materialize-portfolio/issues"
+  },
+  "homepage": "https://github.com/JoshJancula/materialize-portfolio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.1",
+    "nodemailer": "^4.4.1",
+    "nodemon": "^1.14.11",
+    "sequelize": "^4.31.2",
+    "sequelize-cli": "^3.2.0",
+    "sqlite3": "^3.1.13"
+  }
+}

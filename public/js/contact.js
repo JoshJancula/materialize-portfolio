@@ -1,0 +1,43 @@
+  // Adding an event listener for when the form is submitted
+  $("#submitButton").on('click', handleFormSubmit);
+
+  // A function for handling what happens when the form to create a new message
+  function handleFormSubmit(event) {
+
+    var bodyInput = $("#body").val().trim();
+    var nameInput = $("#name").val().trim();
+    var phoneInput = $("#phone").val().trim();
+    var emailInput = $("#email").val().trim();
+
+    event.preventDefault();
+    // Don't submit unless the form is complete
+    if (!nameInput || !emailInput || !bodyInput) {
+      return;
+    }
+    // Constructing a newMessage
+    var newMessage = {
+      name: nameInput,
+      email: emailInput,
+      phone: phoneInput,
+      body: bodyInput
+
+    }; // submit the new comment
+    submitMessage(newMessage);
+    // pop up the modal
+    $('#modal1').modal('open');
+    // empty out the input fields
+    $("#body").val("");
+    $("#name").val("");
+    $("#email").val("");
+    $("#phone").val("");
+  }
+
+  // Submits the message
+  function submitMessage(message) { // and send thme back to homepage
+    $.post("/api/messages", message, function() {
+      window.location.href = "/index";
+    });
+  }
+
+  // });
+  

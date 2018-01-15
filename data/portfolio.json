@@ -1,0 +1,57 @@
+[
+{
+  "name":"Fridge-2-Plate",
+  "image":"/images/fridgeImage.png",
+  "link":"https://patrickthayes.github.io/FridgeIngredientToMeal-groupProject1/",
+  "summary":"An app designed to generate recipe ideas for a user based upon ingredients provided by the user."
+},
+{
+    "name":"Clicky-Game",
+    "image":"/images/clickyGame.png",
+    "link":"https://j-clicky-game.herokuapp.com/",
+    "summary":"A South Park themed memory game."
+},
+{
+    "name":"Friend-Finder",
+    "image":"/images/surveyImage.png",
+    "link":"https://infinite-fortress-85440.herokuapp.com/survey",
+    "summary":"A quick fun survey to see who is a compatible friend for you!"
+},
+{
+    "name":"Bootsrap-Portfolio",
+    "image":"/images/bootstrapPortfolio.png",
+    "link":"https://joshjancula.github.io/",
+    "summary":"The original portfolio I created using Bootstrap."
+},
+{
+    "name":"American Traveler",
+    "image":"/images/travelerImage.png",
+    "link":"https://polar-brushlands-90454.herokuapp.com/",
+    "summary":"An app designed to help a user Find an interesting travel destination. The app provides information on traveling to a new country and includes reviews from users that have also traveled to that destination."
+},
+
+{
+    "name":"Giphy-Search",
+    "image":"/images/giphy.png",
+    "link":"https://joshjancula.github.io/GIPHY/",
+    "summary":"A fun little app that searches the website 'Giphy' for gifs searched by a user."
+},
+{
+    "name":"Train-Schedule",
+    "image":"/images/trainImage.png",
+    "link":"https://joshjancula.github.io/train-schedule/",
+    "summary":"An app designed to keep track of the incoming and outgoing trains at a station."
+},
+{
+    "name":"Crystal Collector",
+    "image":"/images/crystalImage.png",
+    "link":"https://joshjancula.github.io/CrystalCollector/",
+    "summary":"A fun game where the Gem values are randomized and hidden. Then user then tries to match the randomized score with those gem values."
+},
+{
+    "name":"Eat-da-Burger",
+    "image":"/images/burgerGame.png",
+    "link": "https://immense-scrubland-46998.herokuapp.com/",
+    "summary":"My first handlebars.js app, designed to keep track of burgers I've eaten and burgers I would like to eat."
+    }
+]
