@@ -1,3 +1,4 @@
+  
   window.onload = function() {
  // get my portfolio info
  $.ajax("/api/portfolio/", {
@@ -20,8 +21,8 @@
      var ul = $("<ul class='dropdown-content' id='dropdown" + name + "'>")
      // <!-- Dropdown Trigger -->
      var dropdownList = $("<a>");
-     dropdownList.addClass("dropdown-button btn");
-     dropdownList.attr('data-activates', "dropdown" + name);
+     dropdownList.addClass("dropdown-button btn" + name);
+     dropdownList.attr('data-activates', "dropdown");
        var s = "<li>" + "-" + summary + "</li>";
                 ul.append(s);
      // adding each summary to dropdown list (don't have it in json yet so just using name for test purposes)
@@ -33,9 +34,22 @@
      portfolioImage.append(dropdownList);
      $("#portfolio").append(portfolioImage);
 
+// // drowpdown buttons
+//  $('.dropdown-button').dropdown({
+//       inDuration: 300,
+//       outDuration: 225,
+//       constrainWidth: false, // Does not change width of dropdown to that of the activator
+//       hover: false, // Activate on hover
+//       gutter: 0, // Spacing from edge
+//       belowOrigin: true, // Displays dropdown below the button
+//       alignment: 'left', // Displays dropdown with edge aligned to the left of button
+//       stopPropagation: false // Stops event propagation
+//     }
+//   );
 
-     
+
      }
+     
  });
  
  

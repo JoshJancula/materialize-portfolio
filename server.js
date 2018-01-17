@@ -1,7 +1,7 @@
 // =============================================================
 var express = require("express");
 var bodyParser = require("body-parser");
-
+// const nodemailer = require('nodemailer');
 
 // Sets up the Express App
 // =============================================================
@@ -25,7 +25,7 @@ app.use(express.static("public"));
 
 require("./routes/api-routes-messages.js")(app);
 require("./routes/html-routes.js")(app);
-
+require("./routes/email-routes.js")(app);
 
 // Syncing our sequelize models and then starting our Express app
 // =============================================================

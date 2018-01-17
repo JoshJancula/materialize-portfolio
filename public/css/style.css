@@ -28,17 +28,33 @@ img.portfolioImage {
     cursor: pointer;
 }
 
+.dropdown-content {
+    max-height: 200px;
+    width: 220px;
+    text-align: center;
+
+}
+
 .dynamicImage {
     height: 200px;
     width: 250px;
 }
+
+
+.active {
+    /*color: #00b8d4!important;*/
+
+    height: 500px;
+}
+
+
 
 .dropdown-button {
     max-height: 300px;
     width: 250px;
     text-align: center;
     background: #474a4f;
-    cursor: default;
+    /*cursor: default;*/
 }
 
 #skillsIcons {
