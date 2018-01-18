@@ -9,7 +9,7 @@
     "name":"Clicky-Game",
     "image":"/images/clickyGame.png",
     "link":"https://j-clicky-game.herokuapp.com/",
-    "summary":"A South Park themed memory game."
+    "summary":"A South Park themed memory game built with React.js."
 },
 {
     "name":"Friend-Finder",
