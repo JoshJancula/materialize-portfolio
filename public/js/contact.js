@@ -1,3 +1,5 @@
+window.onload = function() {
+  
 // Adding an event listener for when the form is submitted
 $("#submitButton").on('click', handleFormSubmit);
 
@@ -25,13 +27,15 @@ function handleFormSubmit(event) {
   submitToApi(newMessage);
   submitMessage(newMessage);
 
-  // pop up the modal
-  $('#modal1').modal('open');
+  
   // empty out the input fields
   $("#body").val("");
   $("#name").val("");
   $("#email").val("");
   $("#phone").val("");
+  // pop up the modal
+  $('#modal1').modal('open');
+  
 }
 
 function submitToApi(message) {
@@ -48,13 +52,29 @@ function submitMessage(message) { // and send thme back to homepage
   $.get("/send", { 
     to: "josh@jancula.com", 
     subject: "New Message", 
-    text: JSON.stringify(message)
+    // text: JSON.stringify(message)
     // text: message
+    html: 
+     "<h3>" + "name: " + message.name  + "</h3>" + "<br>" +
+     "<h4>" + "email: " + message.email + "</h4>" + 
+     "<h4>" + "phone: " + message.phone + "</h4>" + 
+     "<p>" + "message: " + message.body + "</p>"
+     
     
+     
   }, 
     function(data) {
         if (data == "sent") {
-         console.log("Great Success");
+         console.log("Great Success!");
           }
         });
 }
+
+  
+       $(document).ready(function() {
+    $('.modal').modal();
+     $('.sidenav').sidenav();
+});
+   
+
+};

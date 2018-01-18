@@ -19,7 +19,7 @@ app.get('/send',function(req,res){
     var mailOptions={
         to : req.query.to,
         subject : req.query.subject,
-        text : req.query.text
+        html : req.query.html
     }
     console.log(mailOptions);
     smtpTransport.sendMail(mailOptions, function(error, response){
