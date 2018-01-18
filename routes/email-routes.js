@@ -1,4 +1,4 @@
-// 'use strict';
+
 const nodemailer = require('nodemailer');
 
 var smtpTransport = nodemailer.createTransport({

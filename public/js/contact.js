@@ -27,14 +27,11 @@ function handleFormSubmit(event) {
   submitToApi(newMessage);
   submitMessage(newMessage);
 
-  
   // empty out the input fields
   $("#body").val("");
   $("#name").val("");
   $("#email").val("");
   $("#phone").val("");
-  // pop up the modal
-  // $('.modal').modal("open");
  
 }
 
@@ -52,8 +49,6 @@ function submitMessage(message) { // and send thme back to homepage
   $.get("/send", { 
     to: "josh@jancula.com", 
     subject: "New Message", 
-    // text: JSON.stringify(message)
-    // text: message
     html: 
      "<h3>" + "name: " + message.name  + "</h3>" + "<br>" +
      "<h4>" + "email: " + message.email + "</h4>" + 
@@ -69,8 +64,5 @@ function submitMessage(message) { // and send thme back to homepage
           }
         });
 }
-
-  
-    
 
 };
