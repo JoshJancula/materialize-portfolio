@@ -1,39 +1,39 @@
 window.onload = function() {
-// get my portfolio info
-$.ajax("/api/portfolio/", {
-    type: "GET",
-}).done(function(response) {
-    console.log(response);
-    // everything we get back.. 
-    var results = response;
-     
-    for (var i = 0; i < results.length; i++) {
-    var image = results[i].image;
-    var link = results[i].link;
-    var name = results[i].name;
-    var summary = results[i].summary;
+    // get my portfolio info
+    $.ajax("/api/portfolio/", {
+        type: "GET",
+    }).done(function(response) {
+        console.log(response);
+        // everything we get back.. 
+        var results = response;
 
-    var portfolioImage = $("<div class='item'>");
-    // make one of these for each thing in there
-    image = "<div class= 'dynamicImage'><a href='" + link + "'><img src=" + image + " class='portfolioImage'></a><p class='hoverText'>" + summary + "</p></div>";
-  
-    var ul = $("<ul class='dropdown-content' id='dropdown" + name + "'>")
-    // <!-- Dropdown Trigger -->
-    var dropdownList = $("<a>");
-    dropdownList.addClass("dropdown-trigger btn");
-    dropdownList.attr('data-target', "dropdown" + name);
-    $('.dropdown-trigger').dropdown();
-    dropdownList.text(name);
-    // prepend the portfolioImage to the "#portfolio" div in the HTML
-    portfolioImage.append(image);
-    portfolioImage.prepend(dropdownList);
-    portfolioImage.append(ul);
-    $("#portfolio").append(portfolioImage);
+        for (var i = 0; i < results.length; i++) {
+            var image = results[i].image;
+            var link = results[i].link;
+            var name = results[i].name;
+            var summary = results[i].summary;
 
+            var portfolioImage = $("<div class='item'>");
+            // make one of these for each thing in there
+            image = "<div class= 'dynamicImage'><a href='" + link + "'><img src=" + image + " class='portfolioImage'></a><p class='hoverText'>" + summary + "</p></div>";
 
+            var ul = $("<ul class='dropdown-content' id='dropdown" + name + "'>")
+            // <!-- Dropdown Trigger -->
+            var dropdownList = $("<a>");
+            dropdownList.addClass("dropdown-trigger btn");
+            dropdownList.attr('data-target', "dropdown" + name);
+            $('.dropdown-trigger').dropdown();
+            dropdownList.text(name);
+            // prepend the portfolioImage to the "#portfolio" div in the HTML
+            portfolioImage.append(image);
+            portfolioImage.prepend(dropdownList);
+            portfolioImage.append(ul);
+            $("#portfolio").append(portfolioImage);
 
 
-    // set image to regular opacity
+
+
+            // set image to regular opacity
             $(document).ready(function() {
                 $('img').animate({
                     opacity: 1
@@ -62,18 +62,12 @@ $.ajax("/api/portfolio/", {
                 $(this).find('.hoverText').fadeOut();
             });
 
-        
 
-     }
-     
- });
- 
- 
- 
-   };
-   
-   
-   
-   
-   
-  
+
+        }
+
+    });
+
+
+
+};
