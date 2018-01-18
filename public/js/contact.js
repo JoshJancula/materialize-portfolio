@@ -5,7 +5,7 @@ $("#submitButton").on('click', handleFormSubmit);
 
 // A function for handling what happens when the form to create a new message
 function handleFormSubmit(event) {
-
+  
   var bodyInput = $("#body").val().trim();
   var nameInput = $("#name").val().trim();
   var phoneInput = $("#phone").val().trim();
@@ -34,8 +34,8 @@ function handleFormSubmit(event) {
   $("#email").val("");
   $("#phone").val("");
   // pop up the modal
-  $('#modal1').modal('open');
-  
+  // $('.modal').modal("open");
+ 
 }
 
 function submitToApi(message) {
@@ -71,10 +71,6 @@ function submitMessage(message) { // and send thme back to homepage
 }
 
   
-       $(document).ready(function() {
-    $('.modal').modal();
-     $('.sidenav').sidenav();
-});
-   
+    
 
 };

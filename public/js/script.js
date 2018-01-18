@@ -19,19 +19,12 @@ $.ajax("/api/portfolio/", {
   
     var ul = $("<ul class='dropdown-content' id='dropdown" + name + "'>")
     // <!-- Dropdown Trigger -->
-    
     var dropdownList = $("<a>");
-    
     dropdownList.addClass("dropdown-trigger btn");
-    dropdownList.attr('data-target', "dropdown"+name);
+    dropdownList.attr('data-target', "dropdown" + name);
     $('.dropdown-trigger').dropdown();
-    // var s = "<li>" + "-" + summary + "</li>";
-    // ul.append(s);
-    // adding each summary to dropdown list 
     dropdownList.text(name);
-//dropdownList.append(ul);
-    
-    // prepend the recipeDiv to the "#portfolio" div in the HTML
+    // prepend the portfolioImage to the "#portfolio" div in the HTML
     portfolioImage.append(image);
     portfolioImage.prepend(dropdownList);
     portfolioImage.append(ul);
