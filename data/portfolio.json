@@ -18,13 +18,13 @@
     "summary":"A quick fun survey to see who is a compatible friend for you!"
 },
 {
-    "name":"Bootsrap-Portfolio",
-    "image":"/images/bootstrapPortfolio.png",
-    "link":"https://joshjancula.github.io/",
-    "summary":"My original portfolio I created using Bootstrap."
+    "name":"Mongo-Scraper",
+    "image":"/images/mongoImage.png",
+    "link":"https://fast-refuge-97061.herokuapp.com/",
+    "summary":"Scrapes 'The Onion' for the most recent headlines and provides a link to the article as well as an option to leave a note on the article."
 },
 {
-    "name":"American Traveler",
+    "name":"American-Traveler",
     "image":"/images/travelerImage.png",
     "link":"https://polar-brushlands-90454.herokuapp.com/",
     "summary":"An app designed to help a user find an interesting travel destination. The app provides information on traveling to a new country and includes reviews from users that have also traveled to that destination."
@@ -43,7 +43,7 @@
     "summary":"An app designed to keep track of the incoming and outgoing trains at a station."
 },
 {
-    "name":"Crystal Collector",
+    "name":"Crystal-Collector",
     "image":"/images/crystalImage.png",
     "link":"https://joshjancula.github.io/CrystalCollector/",
     "summary":"A fun game where the Gem values are randomized and hidden. The user then tries to match the randomized score with those gem values."

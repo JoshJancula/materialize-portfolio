@@ -54,8 +54,6 @@ window.onload = function() {
           "<h4>" + "phone: " + message.phone + "</h4>" +
           "<p>" + "message: " + message.body + "</p>"
 
-
-
       },
       function(data) {
         if (data == "sent") {
