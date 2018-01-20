@@ -44,7 +44,7 @@
 },
 {
     "name":"Crystal-Collector",
-    "image":"/images/crystalImage.png",
+    "image":"/images/newCrystal.png",
     "link":"https://joshjancula.github.io/CrystalCollector/",
     "summary":"A fun game where the Gem values are randomized and hidden. The user then tries to match the randomized score with those gem values."
 },
