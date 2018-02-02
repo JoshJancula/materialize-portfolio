@@ -1,4 +1,27 @@
 [
+
+{
+    "name":"Clicky-Game",
+    "image":"/images/clickyGame.png",
+    "link":"https://j-clicky-game.herokuapp.com/",
+    "summary":"A South Park themed memory game built with React.js."
+},
+
+
+{
+    "name":"Jam-Clash",
+    "image":"/images/jamClash.png",
+    "link":"https://jam-clash.herokuapp.com/",
+    "summary":"An app that helps local musicians connect."
+},
+
+{
+    "name":"Mongo-Scraper",
+    "image":"/images/mongoImage.png",
+    "link":"https://fast-refuge-97061.herokuapp.com/",
+    "summary":"Scrapes 'The Onion' for the most recent headlines and provides a link to the article as well as an option to leave a note on the article."
+},
+
 {
   "name":"Fridge-2-Plate",
   "image":"/images/fridgeImage.png",
@@ -6,23 +29,12 @@
   "summary":"An app designed to generate recipe ideas for a user based upon ingredients provided by the user."
 },
 {
-    "name":"Clicky-Game",
-    "image":"/images/clickyGame.png",
-    "link":"https://j-clicky-game.herokuapp.com/",
-    "summary":"A South Park themed memory game built with React.js."
-},
-{
     "name":"Friend-Finder",
     "image":"/images/surveyImage.png",
     "link":"https://infinite-fortress-85440.herokuapp.com/survey",
     "summary":"A quick fun survey to see who is a compatible friend for you!"
 },
-{
-    "name":"Mongo-Scraper",
-    "image":"/images/mongoImage.png",
-    "link":"https://fast-refuge-97061.herokuapp.com/",
-    "summary":"Scrapes 'The Onion' for the most recent headlines and provides a link to the article as well as an option to leave a note on the article."
-},
+
 {
     "name":"American-Traveler",
     "image":"/images/travelerImage.png",
@@ -30,12 +42,7 @@
     "summary":"An app designed to help a user find an interesting travel destination. The app provides information on traveling to a new country and includes reviews from users that have also traveled to that destination."
 },
 
-{
-    "name":"Giphy-Search",
-    "image":"/images/giphy.png",
-    "link":"https://joshjancula.github.io/GIPHY/",
-    "summary":"A fun little app that searches the website 'Giphy' for gifs searched by a user."
-},
+
 {
     "name":"Train-Schedule",
     "image":"/images/trainImage.png",
