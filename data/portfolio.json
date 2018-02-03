@@ -18,7 +18,7 @@
 {
     "name":"Mongo-Scraper",
     "image":"/images/mongoImage.png",
-    "link":"https://fast-refuge-97061.herokuapp.com/",
+    "link":"https://j-mongo-scraper.herokuapp.com/",
     "summary":"Scrapes 'The Onion' for the most recent headlines and provides a link to the article as well as an option to leave a note on the article."
 },
 
