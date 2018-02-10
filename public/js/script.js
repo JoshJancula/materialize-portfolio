@@ -3,7 +3,6 @@ window.onload = function() {
     $.ajax("/api/portfolio/", {
         type: "GET",
     }).done(function(response) {
-        console.log(response);
         // everything we get back.. 
         var results = response;
 
@@ -18,7 +17,7 @@ window.onload = function() {
             image = "<div class= 'dynamicImage'><a href='" + link + "'><img src=" + image + " class='portfolioImage'></a><p class='hoverText'>" + summary + "</p></div>";
 
             var ul = $("<ul class='dropdown-content' id='dropdown" + name + "'>")
-            // <!-- Dropdown Trigger -->
+            //  Dropdown Trigger
             var dropdownList = $("<a>");
             dropdownList.addClass("dropdown-trigger btn");
             dropdownList.attr('data-target', "dropdown" + name);

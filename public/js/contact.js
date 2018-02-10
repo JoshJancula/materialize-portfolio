@@ -12,7 +12,7 @@ window.onload = function() {
     var emailInput = $("#email").val().trim();
 
     event.preventDefault();
-    // Don't submit unless the form is complete
+    // Don't submit unless the form is complete...... they don't have to give phone#
     if (!nameInput || !emailInput || !bodyInput) {
       return;
     }
