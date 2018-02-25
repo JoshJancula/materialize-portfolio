@@ -31,7 +31,7 @@
 {
     "name":"Friend-Finder",
     "image":"/images/surveyImage.png",
-    "link":"https://infinite-fortress-85440.herokuapp.com/survey",
+    "link":"https://j-friend-finder.herokuapp.com/",
     "summary":"A quick fun survey to see who is a compatible friend for you!"
 },
 
