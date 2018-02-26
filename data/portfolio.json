@@ -25,7 +25,7 @@
 {
   "name":"Fridge-2-Plate",
   "image":"/images/fridgeImage.png",
-  "link":"https://patrickthayes.github.io/FridgeIngredientToMeal-groupProject1/",
+  "link":"https://fridge2plate.herokuapp.com/",
   "summary":"An app designed to generate recipe ideas for a user based upon ingredients provided by the user."
 },
 {
