@@ -1,4 +1,17 @@
 [
+    
+    {
+    "name":"Jam-Clash",
+    "image":"/images/jamClash.png",
+    "link":"https://jam-clash.herokuapp.com/",
+    "summary":"An app that helps local musicians connect."
+},
+    {
+  "name":"Fridge-2-Plate",
+  "image":"/images/fridgeImage.png",
+  "link":"https://fridge2plate.herokuapp.com/",
+  "summary":"An app designed to generate recipe ideas for a user based upon ingredients provided by the user."
+},
 
 {
     "name":"Clicky-Game",
@@ -9,31 +22,26 @@
 
 
 {
-    "name":"Jam-Clash",
-    "image":"/images/jamClash.png",
-    "link":"https://jam-clash.herokuapp.com/",
-    "summary":"An app that helps local musicians connect."
-},
-
-{
     "name":"Mongo-Scraper",
     "image":"/images/mongoImage.png",
     "link":"https://j-mongo-scraper.herokuapp.com/",
     "summary":"Scrapes 'The Onion' for the most recent headlines and provides a link to the article as well as an option to leave a note on the article."
 },
-
 {
-  "name":"Fridge-2-Plate",
-  "image":"/images/fridgeImage.png",
-  "link":"https://fridge2plate.herokuapp.com/",
-  "summary":"An app designed to generate recipe ideas for a user based upon ingredients provided by the user."
+    "name":"Trivia-Game",
+    "image":"/images/triviaImage.png",
+    "link":"https://joshjancula.github.io/triviaGame/#",
+    "summary":"A fun trivia game that picks a random 10 South Park themed questions."
 },
+
 {
     "name":"Friend-Finder",
     "image":"/images/surveyImage.png",
     "link":"https://j-friend-finder.herokuapp.com/",
     "summary":"A quick fun survey to see who is a compatible friend for you!"
 },
+
+
 
 {
     "name":"American-Traveler",
@@ -43,12 +51,7 @@
 },
 
 
-{
-    "name":"Train-Schedule",
-    "image":"/images/trainImage.png",
-    "link":"https://joshjancula.github.io/train-schedule/",
-    "summary":"An app designed to keep track of the incoming and outgoing trains at a station."
-},
+
 {
     "name":"Crystal-Collector",
     "image":"/images/newCrystal.png",

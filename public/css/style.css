@@ -5,6 +5,12 @@ body {
     flex-direction: column;
 }
 
+#headshot {
+    margin-left: 20%;
+    height: 220px;
+    width: 220px;
+}
+
 header, main, footer {
   padding-left: 20%;
   width: 100%;
