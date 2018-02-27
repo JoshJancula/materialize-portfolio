@@ -5,6 +5,11 @@ body {
     flex-direction: column;
 }
 
+#sideLink {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 #headshot {
     margin-left: 20%;
     height: 220px;
