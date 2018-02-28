@@ -377,15 +377,9 @@ textarea.materialize-textarea {
     margin-left: 17%;
 }
 
-#submitButton {
-    margin-left: 20%;
-}
 
-#smallMain {
-    margin-left: 15%;
-}
 
-#smallContact {
+#smallContact, #smallMain, #submitButton {
     margin-left: 30%;
     margin-right: 30%;
 
