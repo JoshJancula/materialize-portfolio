@@ -2,14 +2,14 @@
 <html>
 
 <head>
-     <!--Import Google Icon Font-->
+    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-   
+
     <!--Materialize CDN-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
-   
-     <!--JavaScript Materialize-->
+
+    <!--JavaScript Materialize-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/js/materialize.min.js"></script>
 
     <!--StyleSheet-->
@@ -24,7 +24,7 @@
 
     <header>
 
-         <!--header with nav-->
+        <!--header with nav-->
         <nav>
             <div class="nav-wrapper">
                 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons menu">menu</i></a>
@@ -41,7 +41,7 @@
 
     <!----------------------------------------------------------------------------------------------------------------->
 
-   
+
     <!--side navbar-->
     <ul id="slide-out" class="sidenav sidenav-fixed">
         <li>
@@ -52,29 +52,30 @@
 
             </div>
         </li>
-        
-         <li>
-            <a href="/index" id="sideLink" class="white-text center-align red hide-on-med-and-up">Main</a>
-        </li>
-       
+
+
 
         <!--connect with me-->
-      
+
 
         <li><a id="connectWithLabel">Connect With Me</a></li>
         <!--<li>-->
         <div class="row sideConnect">
             <div class="col m 4">
-            <a href="https://github.com/JoshJancula"><img src="./images/github.png" class="social" alt="GitHub" /></a>
+                <a href="https://github.com/JoshJancula"><img src="./images/github.png" id="gitLogo" class="social" alt="GitHub" /></a>
             </div>
             <div class=" col m 4">
-            <a href="https://www.linkedin.com/in/josh-jancula-26703114a"><img src="./images/linkedin.jpg" class="social" alt="LinkedIn" /></a>
+                <a href="https://www.linkedin.com/in/josh-jancula-26703114a"><img src="./images/linkedin.jpg" id="linkedLogo" class="social" alt="LinkedIn" /></a>
+            </div>
+            <div class="col m 4">
+                <a href="https://stackoverflow.com/cv/joshjancula"><img src="./images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+            </div>
         </div>
-        <div class="col m 4">
-           <a href="https://stackoverflow.com/cv/joshjancula"><img src="./images/stackoverflow.png" class="social" alt="Stack Overflow" /></a>
-           </div>
-           <!--</li>-->
-           </div>
+
+        <li>
+            <a href="/index" id="sideLink" class="white-text center-align red hide-on-med-and-up btn waves-effect waves-light">Main</a>
+        </li>
+
     </ul>
 
     <!--END OF SIDENAV-->
@@ -90,15 +91,15 @@
             <div class="row topmargin">
                 <div class="col m10 offset-m1">
                     <form id="cms">
-                        
+
                         <br>
-                        
+
                         <!-- name input form -->
                         <div class="input-field col m6">
                             <input placeholder="Name" id="name" type="text" class="validate">
                             <label for="name"><b class="submitform">Name</b></label>
                         </div>
-                        
+
 
                         <!--email input-->
                         <div class="input-field col m6">
@@ -127,11 +128,11 @@
                                     </div>
                                 </div>
                             </form>
-                              <a class="waves-effect waves-light red btn modal-trigger" data-target="modal1" id="submitButton">Submit</a>
+                            <a class="waves-effect waves-light red btn modal-trigger" data-target="modal1" id="submitButton">Submit</a>
                         </div>
-                       
 
-                       
+
+
 
                         <!-- Modal -->
 
@@ -149,23 +150,23 @@
 
                 </div>
                 <!--end of FIRST row-->
-                
-                         
+
+
 
 
             </div>
 
         </div>
         <!--begining of row-->
-            <div class="row">
-                <div class="col m6 offset-m4">
+        <div class="row">
+            <div class="col m6 offset-m4">
 
-                    <!-- Button for mobile link to the form page. -->
+                <!-- Button for mobile link to the form page. -->
 
-                    <p><a href="/index" class="hide-on-large-only waves-effect waves-light red btn-large">
+                <p><a href="/index" class="hide-on-large-only waves-effect waves-light red btn-large">
                         Main</a></p>
-                </div>
             </div>
+        </div>
     </main>
 
     <!--end of container-->
@@ -183,7 +184,7 @@
 
 
 
- 
+
 
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
@@ -191,12 +192,11 @@
     <script type="text/javascript" src="initializeContact.js"></script>
 
     <script type="text/javascript" src="./js/contact.js"></script>
-    
-   
-    
+
+
+
 
 
 </body>
 
 </html>
-

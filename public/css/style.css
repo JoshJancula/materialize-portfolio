@@ -5,9 +5,11 @@ body {
     flex-direction: column;
 }
 
+
 #sideLink {
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 8%
 }
 
 #headshot {
@@ -97,7 +99,7 @@ img.portfolioImage {
    padding-left: 15%;
    padding-top: 5%;
 }
-  
+
   
 .container {
 
@@ -131,6 +133,7 @@ nav ul a.btn, nav ul a.btn-large, nav ul a.btn-large, nav ul a.btn-flat, nav ul 
 
 .sidenav .user-view {
     padding: 0%;
+  
 }
 
 #logo {
@@ -306,10 +309,18 @@ textarea.materialize-textarea {
     margin-left: 3%;
     margin-top: 5%;
 }
+
+
+
 }
 
 
 @media only screen and (max-width: 414px) {
+
+#logo {
+    width: 300px;
+    height: 450px;
+}
 
     body {
         width: 100%;
@@ -355,7 +366,15 @@ textarea.materialize-textarea {
     margin-left: 3%;
     margin-top: 5%;
 }
- 
+
+#gitLogo{
+    margin-left: 25%;
+   
+}
+
+#linkedLogo {
+    margin-left: 17%;
+}
 
     
 }
