@@ -97,11 +97,11 @@ img.portfolioImage {
 }
 
 .sideConnect {
-   padding-left: 15%;
+   padding-left: 5%;
    padding-top: 5%;
 }
 
-  
+
 .container {
 
     width: 100%;
@@ -253,6 +253,41 @@ textarea.materialize-textarea {
 
 @media only screen and (max-width: 768px) {
     
+    textarea.materialize-textarea {
+    border: 1px solid grey;
+    height: 2rem;
+    width: 100%;
+    margin-left: 0%;
+    border-radius: 6px;
+
+}
+
+.margin {
+    margin-top: 0%;
+}
+
+    .sideConnect {
+   padding-left: 15%;
+   padding-top: 5%;
+   margin-left: -20%;
+}
+
+ #sideLink {
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 8%
+} 
+    
+    #gitLogo{
+    margin-left: 0%;
+   
+}
+    
+    #logo2 {
+        margin-left: 2%;
+        height: 300px;
+    }
+    
     body {
         width: 100%;
     }
@@ -311,12 +346,20 @@ textarea.materialize-textarea {
     margin-top: 5%;
 }
 
-
+.sideConnect {
+   padding-left: 15%;
+   padding-top: 5%;
+}
 
 }
 
 
 @media only screen and (max-width: 414px) {
+    
+    .sideConnect {
+   padding-left: 15%;
+   padding-top: 5%;
+}
 
 #logo2 {
     width: 300px;
@@ -386,6 +429,11 @@ textarea.materialize-textarea {
     
 }
     
+       .sideConnect {
+   padding-left: 20%;
+   padding-top: 5%;
+}
+
 }
 
 

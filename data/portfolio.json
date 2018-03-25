@@ -44,12 +44,11 @@
 
 
 {
-    "name":"American-Traveler",
-    "image":"/images/travelerImage.png",
-    "link":"https://polar-brushlands-90454.herokuapp.com/",
+    "name":"Giphy",
+    "image":"/images/giphyImage.png",
+    "link":"https://joshjancula.github.io/GIPHY/",
     "summary":"An app designed to help a user find an interesting travel destination. The app provides information on traveling to a new country and includes reviews from users that have also traveled to that destination."
 },
-
 
 
 {
