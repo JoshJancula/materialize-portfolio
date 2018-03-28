@@ -92,6 +92,7 @@ img.portfolioImage {
 }
 
 
+
 #connectWithLabel {
     text-align: center;
 }
@@ -251,14 +252,19 @@ textarea.materialize-textarea {
     
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 812px) {
+    
+    	#cardStuff {
+		   margin-right: 5%;
+		    margin-left: -10%;
+		}
     
     .item {
     display: inline-block;
     padding: 30px;
     max-width: 250px;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
     #medJosh {
@@ -399,6 +405,11 @@ textarea.materialize-textarea {
 
 @media only screen and (max-width: 414px) {
     
+  	#cardStuff {
+		   margin-right: 0%;
+		    margin-left: 0%;
+		}
+    
      .aboutP {
         margin-left: 5%;
         margin-right: 5%;
@@ -502,5 +513,20 @@ textarea.materialize-textarea {
 		    width: 50%;
 		    
 		}
+	
+	}
+	
+	
+		@media screen and (min-device-width: 995px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+
+		#cardStuff {
+		    width: 650px;
+		    margin-left: 15%;
+		}
+		
+		header {
+		    padding-left: 30%;
+		}
+	
 	
 	}
