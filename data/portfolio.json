@@ -19,6 +19,13 @@
     "link":"https://j-clicky-game.herokuapp.com/",
     "summary":"A South Park themed memory game built with React.js."
 },
+  {
+    "name":"Mortal-Kombat",
+    "image":"/images/rpgImage.png",
+    "link": "https://joshjancula.github.io/RPG-game/",
+    "summary":"Mortal Kombat themed game, try to complete all 5 rounds!"
+        
+    },
 
 
 {
@@ -62,12 +69,6 @@
     "image":"/images/burgerGame.png",
     "link": "https://immense-scrubland-46998.herokuapp.com/",
     "summary":"My first handlebars.js app, designed to keep track of burgers I've eaten and burgers I would like to eat."
-    },
-    {
-    "name":"Mortal-Kombat",
-    "image":"/images/rpgImage.png",
-    "link": "https://joshjancula.github.io/RPG-game/",
-    "summary":"Mortal Kombat themed game, try to complete all 5 rounds!"
-        
     }
+  
 ]
