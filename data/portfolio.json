@@ -48,8 +48,6 @@
     "summary":"A quick fun survey to see who is a compatible friend for you!"
 },
 
-
-
 {
     "name":"Giphy",
     "image":"/images/giphyImage.png",
@@ -63,12 +61,6 @@
     "image":"/images/newCrystal.png",
     "link":"https://joshjancula.github.io/CrystalCollector/",
     "summary":"A fun game where the Gem values are randomized and hidden. The user then tries to match the randomized score with those gem values."
-},
-{
-    "name":"Eat-da-Burger",
-    "image":"/images/burgerGame.png",
-    "link": "https://immense-scrubland-46998.herokuapp.com/",
-    "summary":"My first handlebars.js app, designed to keep track of burgers I've eaten and burgers I would like to eat."
-    }
-  
+}
+
 ]
