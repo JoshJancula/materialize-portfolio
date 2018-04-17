@@ -264,13 +264,14 @@ textarea.materialize-textarea {
     padding: 30px;
     max-width: 250px;
     margin-right: 2%;
-    margin-left: 2%;
+    /*margin-left: 2%;*/
 }
 
     #medJosh {
         height: 180px;
         width: 110px;
         margin-left: -12%;
+        margin-top: -5%;
     }
     
     
@@ -287,7 +288,7 @@ textarea.materialize-textarea {
     width: 100%;
     padding-right: 0%;
     margin-left: 0%;
-    margin-top: 5%;
+    margin-top: -5%;
 }
     
     textarea.materialize-textarea {
@@ -392,7 +393,7 @@ textarea.materialize-textarea {
     width: 100%;
     padding-right: 10%;
     margin-left: 3%;
-    margin-top: 5%;
+    margin-top: -5%;
 }
 
 .sideConnect {
@@ -467,7 +468,7 @@ textarea.materialize-textarea {
     width: 100%;
     padding-right: 10%;
     margin-left: 5%;
-    margin-top: 0%;
+    margin-top: -5%;
 }
 
 #gitLogo{
@@ -497,7 +498,7 @@ textarea.materialize-textarea {
     display: inline-block;
     padding: 30px;
     max-width: 250px;
-    margin-right: 6%;
+    margin-right: 0%;
     margin-left: 6%;
 }
 
