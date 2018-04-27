@@ -2,7 +2,7 @@
   $(document).ready(function() {
     var elem = document.querySelector('.modal');
 var instance = new M.Modal(elem, {});
-    $('.modal').modal();
+    // $('.modal').modal();
    
 });
    
@@ -10,6 +10,6 @@ var instance = new M.Modal(elem, {});
     $(document).ready(function() {
     var elem = document.querySelector('.sidenav');
 var instance = new M.Sidenav(elem, {});
-    $('.sidenav').sidenav();
+    // $('.sidenav').sidenav();
 
 });
