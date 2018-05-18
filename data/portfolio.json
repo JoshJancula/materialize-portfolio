@@ -52,7 +52,7 @@
     "name":"Giphy",
     "image":"/images/giphy.png",
     "link":"https://joshjancula.github.io/GIPHY/",
-    "summary":"An app designed to help a user find an interesting travel destination. The app provides information on traveling to a new country and includes reviews from users that have also traveled to that destination."
+    "summary":"Run a quick search for some Gifs using the Giphy API"
 },
 
 
